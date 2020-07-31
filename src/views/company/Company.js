@@ -102,8 +102,8 @@ class Company extends Component {
                       <CSelect custom name="ccmonth" id="ccmonth" name="employeeNo" onChange={this.handleInputChange}>
                         <option disabled value=""> Select Employee</option>
                         <option value=" less than 10">less than 10</option>
-                        <option value="2">10-50</option>
-                        <option value="3">more than 50</option>
+                        <option value="10-50">10-50</option>
+                        <option value="more than 50">more than 50</option>
                       </CSelect>
                     </CFormGroup>
                   </CCol>
