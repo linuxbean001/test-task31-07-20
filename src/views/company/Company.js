@@ -100,7 +100,7 @@ class Company extends Component {
                     <CFormGroup>
                       <CLabel htmlFor="ccnumber">Employee </CLabel>
                       <CSelect custom name="ccmonth" id="ccmonth" name="employeeNo" onChange={this.handleInputChange}>
-                        <option value=""> Select Employee</option>
+                        <option disabled value=""> Select Employee</option>
                         <option value=" less than 10">less than 10</option>
                         <option value="2">10-50</option>
                         <option value="3">more than 50</option>
